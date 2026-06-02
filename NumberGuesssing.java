@@ -5,7 +5,7 @@ public class NumberGuesssing {
     public static void main(String[] args) {
      Scanner eri = new Scanner(System.in);
 
-     System.out.print("Enter a number: ");
+     System.out.print("Please guess the Number: ");
 
      int num = eri.nextInt();
 
@@ -13,11 +13,14 @@ public class NumberGuesssing {
      int rand = rd.nextInt();
      System.out.println("Random Number: "+ rand);
      
-     if(num > rand){
-        System.out.println("Congratulations, you have won!");
+     if (num==rand){
+      System.out.println("Congratulations, you have guessed the correct number");
+     }
+     else if(num > rand){
+        System.out.println("Too High");
      }
      else{
-        System.out.println("Sorry, you have lost!");
+        System.out.println("Too Low");
      }
   }
 }
