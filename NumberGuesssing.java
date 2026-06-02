@@ -14,7 +14,7 @@ public class NumberGuesssing {
      System.out.println("Random Number: "+ rand);
      
      if (num==rand){
-      System.out.println("Congratulations, you have guessed the correct number");
+        System.out.println("Congratulations, you have guessed the correct number");
      }
      else if(num > rand){
         System.out.println("Too High");
