@@ -1,0 +1,3 @@
+Created a Number Guessing Game using Java.
+So, basically, in this program, it asks user for a input and then compare  it with a number using a Random Generator library and based on the comparisons,
+it prints the results.
